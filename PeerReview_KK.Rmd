@@ -1,0 +1,31 @@
+---
+title: "KK_Review"
+author: "Kiara Kappelmann"
+date: "2024-03-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Your code ran beautifully with no errors, great job!
+
+I can only make very small picky comments, because I do not see issues with your code. 
+
+1. Line 81: You could comment out install.packages("tibble") and leave a comment to install if needed - for some it is unnecessary to download the package if it's already installed. This could then look like:
+
+```{r}
+
+#install.packages("tibble") #Install tibble package if not previously installed
+library(tibble)
+
+```
+And the same premise can hold for the tidyr package.- super small detail, though!
+
+
+2. I cannot open "My_visualization.pdf" and get an error that the file is corrupted.However, I can view the .png of the plot.To avoid the error and because the plot can be seen as a png file, it might be ok to delete the pdf file.
+
+
