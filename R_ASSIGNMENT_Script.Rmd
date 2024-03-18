@@ -78,8 +78,10 @@ str(teosinte_group)
 ### Transposing the Maize Data
 
 ```{r}
-install.packages("tibble")  # Install tibble package 
-library(tibble)  # Load the tibble package 
+install.packages("tibble")  
+# Install tibble package 
+library(tibble)  
+# Load the tibble package 
 
 maize_group <- column_to_rownames(maize_group, var = "Sample_ID")
 #here we reassign the sample id names from column to rows
