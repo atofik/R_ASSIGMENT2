@@ -1,0 +1,16 @@
+Peer review
+
+```{r}
+1. Data inspection
+ - The code in the park wored well
+
+2. Data procession
+ - I don't see any error with your code
+
+3. Data visualization
+ - Your code worked very well!
+
+4. Overall
+ - In my opinion, your code looked great and worked well. I think you understand the assignment and code in R very well. Great job!
+
+```
